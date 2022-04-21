@@ -1,0 +1,21 @@
+.box {
+    height: 200px;
+    width: 300px;
+    background-color: rebeccapurple;
+    border: 2px solid black;
+}
+.inline-block {
+    display: inline-block;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 350px;
+}
+.flex .box:nth-child(1) {
+    height: unset;
+}
